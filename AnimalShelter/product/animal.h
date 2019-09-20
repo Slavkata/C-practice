@@ -9,7 +9,6 @@ typedef enum
     Parrot
 } SPECIES;
 
-
 #define MaxNameLength 25
 
 typedef struct

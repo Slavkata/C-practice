@@ -6,6 +6,6 @@
 
 int addAnimal(ANIMAL* AnimalPtr, ANIMAL animalArray[], int *animals);
 
-void showAnimals(ANIMAL animalArray[], int *animals);
+void showAnimals(ANIMAL animalArray[], int animals);
 
 #endif

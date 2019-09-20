@@ -29,16 +29,16 @@ int main (void)
         switch (choice)
         {
             case 1: //Show Animals
-                showAnimals(animalArray, &animals);
+                showAnimals(animalArray, animals);
                 break;
             case 2: //Add Animal
 				{
 					ANIMAL a;
-					char speciesNum;
+					int speciesNum;
 					printf("Name:");
 					scanf("%s", a.Name);
-					printf("Cat\nDog\nGuineaPig\nParrot\nSpecies:");
-					scanf("%s", &speciesNum);
+					printf("Cat => 0\nDog => 1\nGuineaPig => 2\nParrot => 3\nSpecies:");
+					scanf("%d", &speciesNum);
 					a.Species = speciesNum;
 					printf("Age:");
 					scanf("%d", &a.Age);
